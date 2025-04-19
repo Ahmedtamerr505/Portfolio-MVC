@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div id="header">
+    <div class="container" style="display: flex; flex-wrap: wrap;">
+        <!-- Left Side: Content -->
+        <div style="flex: 1; min-width: 300px;" >
+            <!-- User's Name -->
+            <h1>
+                <a href="/">@ViewData["UserName"]</a>
+            </h1>
+            <!-- Subtitle with Typing Effect -->
+            <h2>I'm <span class="typing"></span></h2>
+            <!-- Navigation Menu -->
+            <nav class="nav-menu d-none d-lg-block position-absolute left-0 ">
+                <ul>
+                    <li class="active "><a href="#header"><span>Home</span></a></li>
+                    <li><a href="/Project/Index"><span>Projects</span></a></li>
+                    <li><a href="/Skill/Index"><span>Skills</span></a></li>
+                    <li>
+                        <a href="https://drive.google.com/file/d/1JZzf6ttEVXk2x8c53iz2mt4Yg0APJgBH/view?usp=sharing" target="_blank">
+                            <span>Resume</span>
+                        </a>
+                    </li>
+                    <li><a href="/ContactMessage/Create"><span>Contact</span></a></li>
+                </ul>
+            </nav>
+
+            <!-- Social Links -->
+            <div class="social-links mt-6">
+                <a href="https://www.linkedin.com/in/ahmed-abdel-gawad-1710aa2a5/" target="_blank" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/Ahmedtamerr505" target="_blank" class="github"><i class="fab fa-github"></i></a>
+                <a href="mailto:ahmed.tamer.abdelgawad@gmail.com" target="_blank" class="google"><i class="fab fa-google"></i></a>
+            </div>
+        </div>
+
+        <!-- Right Side: Profile Picture -->
+        <div style="flex: 1; min-width: 300px; display: flex; justify-content: center; align-items: center;">
+            <img src="~/images/ahmed.jpg" alt="Profile Picture" style=" max-width: 400px; max-height: 500px;" class="pt-2"/>
+        </div>
+
+    </div>
+</div>

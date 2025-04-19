@@ -1,0 +1,64 @@
+﻿@model IEnumerable<MyPortfolioMvc.Models.Skill>
+<!-- Fixed Navigation Bar -->
+<nav style="position: fixed; top: 0; left: 0; right: 0; background-color: #09203a; z-index: 1000; padding: 10px 20px;">
+    <ul style="list-style: none; display: flex; justify-content: center; margin: 0; padding: 0;">
+        <li style="margin-right: 20px;">
+            <a href="/" class="nav-link">Home</a>
+        </li>
+        <li style="margin-right: 20px;">
+            <a href="/Project/Index" class="nav-link ">Projects</a>
+        </li>
+        <li style="margin-right: 20px;">
+            <a href="/Skill/Index" class="nav-link active">Skills</a>
+        </li>
+        <li style="margin-right: 20px;">
+            <a href="https://drive.google.com/file/d/1JZzf6ttEVXk2x8c53iz2mt4Yg0APJgBH/view?usp=sharing" target="_blank" class="nav-link">Resume</a>
+        </li>
+        <li>
+            <a href="/ContactMessage/Create" class="nav-link">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+
+
+
+<div class="skills-container position-fixed">
+    <h1 class="skills-title">Skills</h1>
+
+    <table class="skills-table">
+        <thead>
+            <tr>
+                <th>Skill Name</th>
+                <th>Proficiency Level</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var skill in Model)
+            {
+                <tr>
+                    <td>@skill.SkillName</td>
+                    <td>@skill.ProficiencyLevel</td>
+                    <td><a href="#" class="skill-action-link">Learn More</a></td> <!-- Optional action -->
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+<footer class="footer-container">
+    <div class="footer-content">
+        <!-- Contact Information -->
+        <div class="contact-info">
+            <p><strong>Email:</strong> <a href="mailto:ahmed.tamer.abdelgawad@gmail.com">ahmed.tamer.abdelgawad@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+201091445081">+201091445081</a></p>
+        </div>
+
+        <!-- Social Links -->
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/ahmed-abdel-gawad-1710aa2a5/" target="_blank" class="social-link linkedin"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/Ahmedtamerr505" target="_blank" class="social-link github"><i class="fab fa-github"></i></a>
+            <a href="mailto:ahmed.tamer.abdelgawad@gmail.com" target="_blank" class="social-link google"><i class="fab fa-google"></i></a>
+        </div>
+    </div>
+</footer>

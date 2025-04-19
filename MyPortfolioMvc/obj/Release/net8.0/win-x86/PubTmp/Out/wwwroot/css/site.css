@@ -1,0 +1,629 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    position: relative;
+    background: transparent;
+}
+
+    body::before {
+        content: "";
+        position: fixed;
+        background: #010e1b;
+        background-size: cover;
+        left: 0;
+        right: 0;
+        top: 0;
+        height: 100vh;
+    }
+
+@media (min-width: 1024px) {
+    body::before {
+        background-attachment: fixed;
+    }
+}
+
+a {
+    color: white; /* Default link color */
+    text-decoration: none; /* Remove underline */
+}
+
+    a:hover {
+        text-decoration: none; /* Ensure no underline on hover */
+    }
+
+/* Headings Font */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+#header {
+    transition: ease-in-out 0s;
+    position: fixed;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    z-index: 997;
+    overflow-y: auto;
+}
+
+    #header h1 {
+        font-size: 48px;
+        margin-top: 0px;
+        padding: 0;
+        line-height: 1;
+        font-weight: 700;
+        font-family: "Poppins", sans-serif;
+    }
+
+        #header h1 a {
+            color: white; /* Default name color */
+            line-height: 1;
+            display: inline-block;
+            text-decoration: none; /* Remove underline */
+        }
+
+            #header h1 a:hover {
+                color: white; /* No hover effect on name */
+            }
+
+    #header h2 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+
+        #header h2 span {
+            color: #12d640; /* Typing effect color */
+            padding-bottom: 0; /* No underline */
+        }
+
+    #header .social-links {
+        margin-top: 40px;
+        display: flex;
+    }
+
+        #header .social-links a {
+            font-size: 16px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.1);
+            color: #fff;
+            line-height: 1;
+            margin-right: 8px;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+
+            #header .social-links a:hover {
+                background: #1c7d32;
+            }
+
+/* Responsiveness for Smaller Screens */
+@media (max-width: 992px) {
+    #header h1 {
+        font-size: 36px;
+    }
+
+    #header h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    #header .social-links {
+        margin-top: 15px;
+    }
+
+    #header .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/*--------------------------------------------------------------
+# Typing Effect
+--------------------------------------------------------------*/
+.typing {
+    display: inline-block;
+    border-right: 2px solid #12d640; /* Vertical blinking cursor */
+    animation: blink 0.6s step-end infinite; /* Blinking animation */
+    text-decoration: none; /* Remove underline */
+}
+
+@keyframes blink {
+    from {
+        border-color: #12d640;
+    }
+
+    to {
+        border-color: transparent;
+    }
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+.nav-menu {
+    margin-top: 20px; /* Adjusted margin */
+    display: flex; /* Ensure links are horizontally aligned */
+    justify-content: center; /* Center align the navigation links */
+}
+
+    .nav-menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+    }
+
+    .nav-menu li + li {
+        margin-left: 20px; /* Space between links */
+    }
+
+    .nav-menu a {
+        display: inline-block;
+        position: relative; /* For underline animation */
+        color: white; /* Default color */
+        font-size: 18px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        text-decoration: none; /* Remove underline */
+        transition: color 0.3s ease-in-out; /* Smooth transition for color */
+    }
+
+        .nav-menu a:hover, .nav-menu a:focus {
+            color: #12d640; /* Links turn green on hover and focus */
+            text-decoration: none; /* No underline */
+        }
+
+        .nav-menu a::after {
+            content: "";
+            position: absolute;
+            width: 0; /* Start with no width */
+            height: 2px; /* Height of the underline */
+            background-color: yellow; /* Yellow underline */
+            bottom: -4px; /* Position underline */
+            left: 0; /* Start animation from left */
+            transition: width 0.3s ease-in-out; /* Animate underline */
+        }
+
+        .nav-menu a:hover::after, .nav-menu a:focus::after {
+            width: 50%; /* Half underline appears on hover and focus */
+        }
+
+    /* Active State for Home */
+    .nav-menu .active a {
+        color: #12d640; /* Active link stays green */
+    }
+
+        .nav-menu .active a::after {
+            content: "";
+            position: absolute;
+            width: 50%; /* Half underline */
+            height: 2px;
+            background-color: yellow; /* Yellow underline */
+            bottom: -4px;
+            left: 0;
+        }
+
+/*--------------------------------------------------------------
+# Mobile Navigation
+--------------------------------------------------------------*/
+.mobile-nav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 9999;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.85);
+    border-radius: 0;
+    padding: 20px 10px;
+}
+
+    .mobile-nav a {
+        display: block;
+        color: #fff;
+        padding: 10px 15px;
+        font-weight: 500;
+        text-decoration: none;
+    }
+
+        .mobile-nav a:hover {
+            color: #12d640;
+        }
+
+/* Fixed Navbar Styling */
+nav .fixx{
+    background-color: #09203a; /* Set background color */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3); /* Add subtle shadow */
+}
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+            nav ul li:last-child {
+                margin-right: 0; /* No margin on the last item */
+            }
+
+/* Link Styling */
+.nav-link {
+    color: white; /* Default link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    position: relative;
+    transition: color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+    .nav-link:hover {
+        color: #12d640; /* Turn green on hover */
+    }
+
+    /* Half Underline Animation */
+    .nav-link::after {
+        content: "";
+        position: absolute;
+        width: 0; /* Start with no width */
+        height: 2px; /* Height of the underline */
+        background-color: yellow; /* Yellow underline */
+        bottom: -4px; /* Position underline */
+        left: 0; /* Start animation from left */
+        transition: width 0.3s ease-in-out; /* Animate underline */
+    }
+
+    .nav-link:hover::after {
+        width: 50%; /* Half underline appears on hover */
+    }
+    /* Active Link Styling */
+    .nav-link.active {
+        color: #12d640; /* Green text for active link */
+    }
+
+        .nav-link.active::after {
+            content: "";
+            position: absolute;
+            width: 50%; /* Half underline */
+            height: 2px;
+            background-color: yellow; /* Yellow underline */
+            bottom: -4px;
+            left: 0;
+        }
+/* General Styling */
+body {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: #010e1b;
+    margin: 0;
+    padding: 0;
+}
+/* Projects Container */
+.projects-container {
+    position: fixed;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /* Space between groups */
+    align-items: center;
+}
+
+/* Group Styling */
+.project-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px; /* Space between projects in the same group */
+    justify-content: center;
+}
+
+/* Individual Project */
+.project {
+    width: 300px; /* Fixed width for project divs */
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+    /* Hover Effect for Project Image */
+    .project img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .project:hover img {
+        transform: scale(1.1); /* Scale image on hover */
+    }
+
+/* Project Link Styling */
+.project-link {
+    display: block;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #09203a;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+    .project-link:hover {
+        color: #12d640; /* Change link color on hover */
+    }
+/* Header Container Styling */
+.header-container {
+    position: fixed; /* Stay fixed at the middle */
+    top: 20%; /* Adjust vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Perfect centering */
+    text-align: center; /* Center align text */
+    z-index: 100; /* Ensure it stays above other content */
+}
+
+/* Header Title Styling */
+.header-title {
+    color: #12d640; /* Green text color */
+    font-size: 36px; /* Adjust size as needed */
+    font-family: "Poppins", sans-serif; /* Optional font styling */
+    position: relative; /* Needed for underline */
+}
+
+    /* Yellow Underline */
+    .header-title::after {
+        content: "";
+        position: absolute;
+        width: 50%; /* Half-width underline */
+        height: 4px; /* Thickness of the underline */
+        background-color: yellow; /* Yellow underline color */
+        bottom: -8px; /* Space between the text and underline */
+        left: 25%; /* Center the underline below text */
+    }
+
+/* Header Subtitle Styling */
+/* Header Subtitle */
+.header-subtitle {
+    color: #dee2e6; /* Light text color */
+    font-size: 18px; /* Adjust font size as needed */
+    margin-top: 10px; /* Add spacing below the title */
+}
+
+/* Skills Container */
+.skills-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 80%; /* Adjust width for responsiveness */
+    max-width: 1000px; /* Maximum width limit */
+    z-index: 100; /* Keeps the container above other content */
+    background-color: #09203a; /* Dark background */
+    padding: 20px;
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow effect */
+}
+
+/* Skills Title */
+.skills-title {
+    font-size: 36px;
+    font-family: "Poppins", sans-serif;
+    color: #12d640; /* Green text color */
+    margin-bottom: 20px;
+    position: relative;
+}
+
+    /* Title Yellow Underline */
+    .skills-title::after {
+        content: "";
+        position: absolute;
+        width: 50%; /* Half-width underline */
+        height: 4px;
+        background-color: yellow; /* Yellow underline */
+        bottom: -10px;
+        left: 25%; /* Center the underline */
+    }
+
+/* Skills Table */
+.skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+    /* Table Header Styling */
+    .skills-table thead {
+        background-color: #1e2d3d; /* Dark blue color for header */
+        color: #f8f9fa; /* Light text color for contrast */
+        font-weight: bold; /* Make header text stand out */
+    }
+
+    /* Table Header and Cell Styling */
+    .skills-table th {
+        padding: 12px;
+        border: 1px solid #09203a; /* Border with slight variation */
+        text-align: left; /* Align text for better readability */
+    }
+
+    .skills-table td {
+        padding: 12px;
+        border: 1px solid #ccc; /* Subtle border for table cells */
+    }
+
+    /* Row Hover Effect */
+    .skills-table tbody tr:hover {
+        background-color: #09203a; /* Highlight on row hover */
+        color: #fff; /* White text on hover */
+    }
+
+/* Skill Action Link */
+.skill-action-link {
+    color: #12d640; /* Green link */
+    text-decoration: none; /* Remove underline */
+}
+
+    .skill-action-link:hover {
+        color: yellow; /* Yellow link on hover */
+        text-decoration: underline;
+    }
+/* Contact Container */
+.contact-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #09203a; /* Dark background */
+    padding: 30px;
+    border-radius: 10px; /* Smooth corners */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4); /* Subtle shadow */
+    width: 90%; /* Make it responsive */
+    max-width: 500px; /* Limit maximum width */
+    text-align: center;
+    z-index: 100; /* Stay above other elements */
+}
+
+/* Contact Title */
+.contact-title {
+    font-size: 36px;
+    color: #12d640; /* Green text color */
+    font-family: "Poppins", sans-serif;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+    /* Title Underline */
+    .contact-title::after {
+        content: "";
+        position: absolute;
+        width: 40%; /* Underline width */
+        height: 4px;
+        background-color: yellow; /* Underline color */
+        bottom: -10px;
+        left: 30%; /* Center the underline */
+    }
+
+/* Contact Form */
+.contact-form .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.contact-form label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #dee2e6; /* Light text color */
+    display: block;
+    margin-bottom: 8px;
+}
+
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc; /* Input border color */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f9f9f9; /* Light background */
+    font-size: 14px;
+    color: #333; /* Text color */
+}
+
+    .contact-form input:focus,
+    .contact-form textarea:focus {
+        outline: none;
+        border-color: #12d640; /* Green border on focus */
+        box-shadow: 0 0 8px rgba(18, 214, 64, 0.5); /* Green glow effect */
+    }
+
+.contact-form textarea {
+    resize: none; /* Disable manual resizing */
+}
+
+/* Submit Button */
+.btn-submit {
+    background-color: #12d640; /* Green button color */
+    color: #fff; /* White text */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    width: 100%;
+}
+
+    .btn-submit:hover {
+        background-color: yellow; /* Hover color for button */
+        color: #09203a; /* Dark text on hover */
+    }
+/* Footer Container */
+.footer-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%; /* Full width */
+    background-color: #09203a; /* Dark background */
+    color: #f8f9fa; /* Light text color */
+    padding: 10px 15px; /* Reduced padding */
+    text-align: center;
+    z-index: 9999; /* High z-index for visibility */
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+/* Contact Info */
+.contact-info {
+    font-size: 12px; /* Smaller text size for compact layout */
+    margin-bottom: 5px; /* Reduced spacing */
+}
+
+    .contact-info a {
+        color: #12d640; /* Green link color */
+        text-decoration: none;
+    }
+
+        .contact-info a:hover {
+            color: yellow; /* Yellow link color on hover */
+            text-decoration: underline;
+        }
+
+/* Social Links */
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Reduced gap for compact spacing */
+}
+
+.social-link {
+    color: #f8f9fa; /* White color for icons */
+    font-size: 16px; /* Smaller icon size */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+    .social-link:hover {
+        color: #12d640; /* Green color on hover */
+        transform: scale(1.1); /* Slight scaling effect on hover */
+    }
+.mt-6{
+    position: absolute !important;
+    left:7% !important;
+    margin-top: 70px !important ;
+    margin-right:100px !important;
+}

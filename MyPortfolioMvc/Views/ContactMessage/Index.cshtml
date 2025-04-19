@@ -1,0 +1,25 @@
+﻿@model IEnumerable<MyPortfolioMvc.Models.ContactMessage>
+
+<h1>Contact Messages</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Message</th>
+            <th>Sent At</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var message in Model)
+        {
+            <tr>
+                <td>@message.Name</td>
+                <td>@message.Email</td>
+                <td>@message.Message</td>
+                <td>@message.SentAt.ToString("yyyy-MM-dd HH:mm")</td>
+            </tr>
+        }
+    </tbody>
+</table>

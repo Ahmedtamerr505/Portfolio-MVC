@@ -1,0 +1,41 @@
+﻿@model MyPortfolioMvc.Models.ContactMessage
+<!-- Fixed Navigation Bar -->
+<nav style="position: fixed; top: 0; left: 0; right: 0; background-color: #09203a; z-index: 1000; padding: 10px 20px;">
+    <ul style="list-style: none; display: flex; justify-content: center; margin: 0; padding: 0;">
+        <li style="margin-right: 20px;">
+            <a href="/" class="nav-link">Home</a>
+        </li>
+        <li style="margin-right: 20px;">
+            <a href="/Project/Index" class="nav-link ">Projects</a>
+        </li>
+        <li style="margin-right: 20px;">
+            <a href="/Skill/Index" class="nav-link">Skills</a>
+        </li>
+        <li style="margin-right: 20px;">
+            <a href="https://drive.google.com/file/d/1JZzf6ttEVXk2x8c53iz2mt4Yg0APJgBH/view?usp=sharing" target="_blank" class="nav-link">Resume</a>
+        </li>
+        <li>
+            <a href="/ContactMessage/Create" class="nav-link active">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+
+<div class="contact-container position-fixed">
+    <h1 class="contact-title">Send a Message</h1>
+    <form asp-action="Create" asp-controller="ContactMessage" method="post" class="contact-form">
+        <div class="form-group">
+            <label for="Name">Name:</label>
+            <input type="text" name="Name" class="form-control" value="@Model?.Name" placeholder="Your full name" required />
+        </div>
+        <div class="form-group">
+            <label for="Email">Email:</label>
+            <input type="email" name="Email" class="form-control" value="@Model?.Email" placeholder="Your email address" required />
+        </div>
+        <div class="form-group">
+            <label for="Message">Message:</label>
+            <textarea name="Message" class="form-control" rows="5" placeholder="Write your message here" required>@Model?.Message</textarea>
+        </div>
+        <button type="submit" class="btn-submit">Submit</button>
+    </form>
+</div>

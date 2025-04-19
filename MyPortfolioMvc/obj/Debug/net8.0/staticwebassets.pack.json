@@ -1,0 +1,309 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MyPortfolioMvc.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MyPortfolioMvc.qq5q5cd1sq.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\gitignore.txt",
+      "PackagePath": "staticwebassets\\gitignore.txt"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\images\\ahmed.jpg",
+      "PackagePath": "staticwebassets\\images\\ahmed.jpg"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\images\\bakery.jpg",
+      "PackagePath": "staticwebassets\\images\\bakery.jpg"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\images\\bookmark.jpg",
+      "PackagePath": "staticwebassets\\images\\bookmark.jpg"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\images\\daniels.jpg",
+      "PackagePath": "staticwebassets\\images\\daniels.jpg"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\images\\egyption-party.jpg",
+      "PackagePath": "staticwebassets\\images\\egyption-party.jpg"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\images\\fresh-cart.jpg",
+      "PackagePath": "staticwebassets\\images\\fresh-cart.jpg"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\images\\mealify.jpg",
+      "PackagePath": "staticwebassets\\images\\mealify.jpg"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\images\\morgans.jpg",
+      "PackagePath": "staticwebassets\\images\\morgans.jpg"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\images\\yummy.jpg",
+      "PackagePath": "staticwebassets\\images\\yummy.jpg"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\MyPortfolioMvc\\MyPortfolioMvc\\MyPortfolioMvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyPortfolioMvc.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MyPortfolioMvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MyPortfolioMvc.props",
+      "PackagePath": "build\\MyPortfolioMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MyPortfolioMvc.props",
+      "PackagePath": "buildMultiTargeting\\MyPortfolioMvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MyPortfolioMvc.props",
+      "PackagePath": "buildTransitive\\MyPortfolioMvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

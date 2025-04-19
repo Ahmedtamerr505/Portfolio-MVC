@@ -1,0 +1,72 @@
+﻿@model IEnumerable<MyPortfolioMvc.Models.Project>
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!-- Fixed Navigation Bar -->
+<nav style="position: fixed; top: 0; left: 0; right: 0; background-color: #09203a; z-index: 1000; padding: 10px 20px;">
+    <ul style="list-style: none; display: flex; justify-content: center; margin: 0; padding: 0;">
+        <li style="margin-right: 20px;">
+            <a href="/" class="nav-link">Home</a>
+        </li>
+        <li style="margin-right: 20px;">
+            <a href="/Project/Index" class="nav-link active">Projects</a>
+        </li>
+        <li style="margin-right: 20px;">
+            <a href="/Skill/Index" class="nav-link">Skills</a>
+        </li>
+        <li style="margin-right: 20px;">
+            <a href="https://drive.google.com/file/d/1JZzf6ttEVXk2x8c53iz2mt4Yg0APJgBH/view?usp=sharing" target="_blank" class="nav-link">Resume</a>
+        </li>
+        <li>
+            <a href="/ContactMessage/Create" class="nav-link">Contact</a>
+        </li>
+    </ul>
+</nav>
+
+<!-- Page Title -->
+@{
+    ViewData["Title"] = "Projects";
+}
+<div class="header-container text-center position-fixed mb-3">
+    <h1 class="header-title">My Projects</h1>
+    <p class="header-subtitle">Check out some of my recent work below!</p>
+</div>
+
+<div class="projects-container position-fixed">
+    <!-- Group 1 -->
+    <div class="project-group">
+        <div class="project">
+            <img src="~/images/fresh-cart.jpg" alt="Fresh-cart" class="project-image" />
+            <a href="https://fresh-cart-one-eta.vercel.app" class="project-link">Fresh-cart</a>
+        </div>
+
+        <div class="project">
+            <img src="~/images/yummy.jpg" alt="Yummy" class="project-image" />
+            <a href="https://ahmedtamerr505.github.io/Yummy/" class="project-link">Yummy</a>
+        </div>
+
+        <div class="project">
+            <img src="~/images/egyption-party.jpg" alt="Egyptian Party" class="project-image" />
+            <a href="https://ahmedtamerr505.github.io/Egyption-party/" class="project-link">Egyption-party</a>
+        </div>
+    </div>
+
+    <!-- Group 2 -->
+    <div class="project-group">
+        <div class="project">
+            <img src="~/images/morgans.jpg" alt="Morgans" class="project-image" />
+            <a href="https://ahmedtamerr505.github.io/Morgan-portfolio/" class="project-link">Morgans-portfolio</a>
+        </div>
+
+        <div class="project">
+            <img src="~/images/bookmark.jpg" alt="Bookmark" class="project-image" />
+            <a href="https://ahmedtamerr505.github.io/Bookmark/" class="project-link">Bookmark</a>
+        </div>
+
+        <div class="project">
+            <img src="~/images/mealify.jpg" alt="Mealify" class="project-image" />
+            <a href="https://ahmedtamerr505.github.io/Mealify/" class="project-link">Mealify</a>
+        </div>
+    </div>
+</div>
